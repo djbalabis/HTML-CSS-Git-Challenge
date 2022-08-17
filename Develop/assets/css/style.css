@@ -7,23 +7,23 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* Changed the header class to a header element */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* Changed the specificity from header class to header element */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* Removed the header class and h1 specificity */
 .seo {
     color: #d9dcd6;
 }
-
+/* Replaced the div element with the new nav element */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,11 +31,11 @@ nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* Removed the header class and div specificity */
 ul {
     list-style-type: none;
 }
-
+/* Removed the header class, div and ul specificity */
 li {
     display: inline-block;
     margin-left: 25px;
@@ -49,7 +49,6 @@ a {
 p {
     font-size: 16px;
 }
-
 .hero {
     height: 800px;
     width: 100%;
@@ -58,7 +57,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* Consolidated the subject class */
 .subject {
     margin-bottom: 20px;
     padding: 50px;
@@ -103,7 +102,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* Consolidated the benefit class */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
@@ -113,20 +112,20 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* Consolidated the benefit img specificity */
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Replaced the footer class with a footer element */
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* Replaced the footer class with the footer element and changed h2 specificity to h4 */
 footer h4 {
     font-size: 20px;
 }
